@@ -1,7 +1,9 @@
+import { Header } from 'components';
+
 function App() {
 	return (
-		<div className="App">
-			<h1>Ecommerce App</h1>
+		<div>
+			<Header />
 		</div>
 	);
 }

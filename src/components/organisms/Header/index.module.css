@@ -1,0 +1,12 @@
+.header {
+	background-color: #fff;
+	padding: 2rem;
+}
+.nav {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+}
+.toRight {
+	margin-right: auto;
+}
