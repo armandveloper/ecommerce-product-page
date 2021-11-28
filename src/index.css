@@ -20,6 +20,7 @@ html {
 	box-sizing: inherit;
 }
 body {
+	color: var(--c-Very-dark-blue);
 	font-family: 'Kumbh Sans', sans-serif;
 	font-size: 1.6rem;
 	margin: 0;
@@ -35,4 +36,25 @@ button {
 }
 img {
 	max-width: 100%;
+}
+.product-info-wrapper {
+	padding: 2rem 0;
+}
+.store-name {
+	color: var(--c-orange);
+	display: block;
+	font-size: 1.4rem;
+	font-weight: 700;
+	letter-spacing: 0.1px;
+	margin-bottom: 1rem;
+	text-transform: uppercase;
+}
+.product-name {
+	margin-top: 0;
+}
+.product-description {
+	color: var(--c-dark-grayish-blue);
+	font-size: 1.5rem;
+	line-height: 1.6;
+	margin-bottom: 3rem;
 }

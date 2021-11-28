@@ -6,11 +6,20 @@ function App() {
 		<div>
 			<Header />
 			<Slider />
-			<Wrapper>
-				<Button full={true} startIcon={<IconCart />}>
-					Add to cart
-				</Button>
-			</Wrapper>
+			<div className="product-info-wrapper">
+				<Wrapper>
+					<span className="store-name">Sneaker Company</span>
+					<h1 className="product-name">Fall Limited Edition Sneakers</h1>
+					<p className="product-description">
+						These low-profile sneakers are your perfect casual wear companion.
+						Featuring a durable rubber outer sole, they’ll withstand everything
+						the weather can offer.
+					</p>
+					<Button full={true} startIcon={<IconCart />}>
+						Add to cart
+					</Button>
+				</Wrapper>
+			</div>
 		</div>
 	);
 }
