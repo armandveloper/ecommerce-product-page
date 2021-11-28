@@ -1,0 +1,16 @@
+.stepper {
+	background-color: var(--c-light-grayish-blue);
+	margin-bottom: 2.5rem;
+	padding: 1.6rem;
+	display: grid;
+	grid-template-columns: 3rem 1fr 3rem;
+	align-items: center;
+	justify-items: center;
+}
+.quantity {
+	font-size: 2rem;
+	font-weight: 700;
+}
+.stepper path {
+	fill: var(--c-orange);
+}

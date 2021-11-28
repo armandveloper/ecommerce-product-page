@@ -1,6 +1,6 @@
 import { Button, Header, Slider, Wrapper } from 'components';
 import { ReactComponent as IconCart } from 'assets/icons/icon-cart.svg';
-import { Price } from 'components/molecules';
+import { Price, QuantityStepper } from 'components/molecules';
 
 function App() {
 	return (
@@ -17,6 +17,7 @@ function App() {
 						the weather can offer.
 					</p>
 					<Price discount={50} price={250} />
+					<QuantityStepper />
 					<Button full={true} startIcon={<IconCart />}>
 						Add to cart
 					</Button>
