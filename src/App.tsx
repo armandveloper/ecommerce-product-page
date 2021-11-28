@@ -1,4 +1,4 @@
-import { Button, Header, Slider } from 'components';
+import { Button, Header, Slider, Wrapper } from 'components';
 import { ReactComponent as IconCart } from 'assets/icons/icon-cart.svg';
 
 function App() {
@@ -6,9 +6,11 @@ function App() {
 		<div>
 			<Header />
 			<Slider />
-			<Button full={true} startIcon={<IconCart />}>
-				Add to cart
-			</Button>
+			<Wrapper>
+				<Button full={true} startIcon={<IconCart />}>
+					Add to cart
+				</Button>
+			</Wrapper>
 		</div>
 	);
 }
