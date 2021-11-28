@@ -1,0 +1,19 @@
+.button {
+	background-color: var(--c-orange);
+	border-radius: 0.4rem;
+	color: #fff;
+	display: inline-flex;
+	font-size: 1.4rem;
+	font-weight: 700;
+	min-width: 6rem;
+	padding: 1.2rem 2rem;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+}
+.full {
+	width: 100%;
+}
+button svg path {
+	fill: currentColor;
+}
