@@ -1,5 +1,6 @@
 import { Button, Header, Slider, Wrapper } from 'components';
 import { ReactComponent as IconCart } from 'assets/icons/icon-cart.svg';
+import { Price } from 'components/molecules';
 
 function App() {
 	return (
@@ -15,6 +16,7 @@ function App() {
 						Featuring a durable rubber outer sole, they’ll withstand everything
 						the weather can offer.
 					</p>
+					<Price discount={50} price={250} />
 					<Button full={true} startIcon={<IconCart />}>
 						Add to cart
 					</Button>

@@ -1,0 +1,31 @@
+.wrapper {
+	margin-bottom: 4rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.discountWrapper {
+	display: flex;
+	gap: 1.6rem;
+	align-items: center;
+	justify-content: space-between;
+}
+.price {
+	font-weight: 700;
+	font-size: 3rem;
+}
+.discountChip {
+	background-color: var(--c-pale-orange);
+	border-radius: 0.5rem;
+	color: var(--c-orange);
+	display: inline-block;
+	font-size: 1.1rem;
+	font-weight: 700;
+	padding: 0.5rem;
+}
+.normalPrice {
+	color: var(--c-grayish-blue);
+	font-size: 1.8rem;
+	font-weight: 700;
+	text-decoration: line-through;
+}
