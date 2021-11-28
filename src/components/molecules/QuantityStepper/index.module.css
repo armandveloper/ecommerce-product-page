@@ -14,3 +14,6 @@
 .stepper path {
 	fill: var(--c-orange);
 }
+.stepper button:disabled path {
+	fill: var(--c-grayish-blue);
+}
